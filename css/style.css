@@ -46,3 +46,14 @@ body {
   font-size: 1rem;
   letter-spacing: .1em; /* Coloca espaçamento entre as letras */
 }
+
+.grid-section {
+  grid-column: 2 / 4; /* Pega a linha do início da 2a coluna até até o final da 3a coluna e início da 4a coluna */
+  width: 100%;
+  box-sizing: border-box; /* Preenche a borda na largura e altura total */
+  padding: 10px;
+  display: grid; /* Insere linhas pontilhadas (grades) visivel apemas no console  */
+  grid-template-columns: 90px 300px 1fr; /* Faz um contêiner de grade de 3 colunas e redimensiona */
+  grid-gap: 20px; /* Distância entre cada coluna de grid */
+  margin-bottom: 4rem;
+}
