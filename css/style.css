@@ -66,3 +66,27 @@ body {
   margin-bottom: 1rem;
   grid-column: 1 / 4; /* Pega a linha do início da 1a coluna até até o final da 3a coluna e início da 4a coluna */
 }
+
+.animais h2 {
+  font-family: monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: 1rem;
+  color: #e54;
+}
+
+.animais h2::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: #fb5;
+}
+
+.animais p {
+  font-family: Helvetica, Arial;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
