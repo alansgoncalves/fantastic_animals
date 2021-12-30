@@ -20,3 +20,10 @@ body {
   display: grid; /* Insere linhas pontilhadas (grades) visivel apemas no console  */
   grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr; /* Faz um contêiner de grade de 4 colunas e redimensiona */
 }
+
+.menu {
+  grid-column: 3 / 5; /* Pega a linha do início da 3a coluna até até o final da 4a coluna e início da 5a coluna */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fb5;
+}
