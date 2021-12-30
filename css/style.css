@@ -3,3 +3,8 @@ body, h1, h2, ul, li, p, dd, dt, dl {
   margin: 0px;
   padding: 0px;
 }
+
+img {
+  display: block;
+  max-width: 100%; /* Pmax-width para evitar que a imagem ultrapasse 100 do tamanho do container, tornando resppnsiva */
+}
