@@ -90,3 +90,9 @@ body {
   line-height: 1.2;
   margin-bottom: 1rem;
 }
+
+.animais-lista {
+  height: 370px;
+  overflow-y: scroll; /* No que estourar o container no eixo Y, será colocado no scroll  */
+  grid-column: 2; /* Pega somente a linha do início da 2a */
+}
