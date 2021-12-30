@@ -96,3 +96,17 @@ body {
   overflow-y: scroll; /* No que estourar o container no eixo Y, será colocado no scroll  */
   grid-column: 2; /* Pega somente a linha do início da 2a */
 }
+
+.animais-lista::-webkit-scrollbar { /* Aqui iremos estilizar a barra de scroll */
+  width: 18px
+}
+
+.animais-lista::-webkit-scrollbar-thumb { /* Aqui iremos estilizar o scroll que sobe e desce */
+  background: #fb5;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+.animais-lista::-webkit-scrollbar-track { /* Aqui iremos estilizar aa barrinha onde fica o scroll */
+  background: #faf6ed;
+}
