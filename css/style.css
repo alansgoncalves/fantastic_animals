@@ -8,3 +8,7 @@ img {
   display: block;
   max-width: 100%; /* Pmax-width para evitar que a imagem ultrapasse 100 do tamanho do container, tornando resppnsiva */
 }
+
+ul {
+  list-style: none; /* Renove as bolinhas da lista */
+}
