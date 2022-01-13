@@ -118,3 +118,32 @@ body {
 .animais-descricao section { /* Aqui iremos estilizar a distância entre um texto e outro do animal */
   margin-bottom: 3rem;
 }
+
+/* Estilização da section FAQ */
+
+.faq-lista {
+  grid-column: 2 / 4 /* Pega a linha do início da 2a coluna até até o final da 3a coluna e início da 4a coluna */
+}
+
+.faq-lista dt { /* Aqui iremos estilizar as perguntas do FAQ  */
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  color: #e54;
+}
+
+.faq-lista dt::before { /* Aqui iremos estilizar os quadradinhos amerelos que ficam nas perguntas  */
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background: #fb5;
+}
+
+.faq-lista dd { /* Aqui iremos estilizar as respostas das perguntas do FAQ  */
+  font-family: Helvetica, Arial;
+  margin-bottom: .5rem;
+  margin-left: 30px;
+}
