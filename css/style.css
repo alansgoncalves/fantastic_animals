@@ -107,6 +107,14 @@ body {
   border-right: 4px solid #faf6ed;
 }
 
-.animais-lista::-webkit-scrollbar-track { /* Aqui iremos estilizar aa barrinha onde fica o scroll */
+.animais-lista::-webkit-scrollbar-track { /* Aqui iremos estilizar aa barrinha que fica atrás do scroll */
   background: #faf6ed;
+}
+
+.animais-descricao { /* Aqui iremos estilizar a parte onde estão o textos de cada animal */
+  grid-column: 3;
+}
+
+.animais-descricao section { /*  */
+  margin-bottom: 3rem;
 }
