@@ -111,10 +111,10 @@ body {
   background: #faf6ed;
 }
 
-.animais-descricao { /* Aqui iremos estilizar a parte onde estão o textos de cada animal */
+.animais-descricao { /* Aqui iremos estilizar a linha do início da 3a coluna referente aos texto dos animais*/
   grid-column: 3;
 }
 
-.animais-descricao section { /*  */
+.animais-descricao section { /* Aqui iremos estilizar a distância entre um texto e outro do animal */
   margin-bottom: 3rem;
 }
